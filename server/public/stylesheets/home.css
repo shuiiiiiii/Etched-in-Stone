@@ -182,7 +182,7 @@ body{
 
 .secSeparator{
     border: none;
-    height: 4px;
+    height: 2px;
     background-color: black;
 }
 
@@ -254,7 +254,7 @@ body{
     background-image: url("/static/images/background/3.png");
     background-position: center;
     background-size: cover;
-    padding: 5% 9%;
+    padding: 2% 9%;
 }
 
 .thirdSec1{
@@ -321,4 +321,52 @@ body{
 .thirdSec2Projs span{
     text-align: center;
     font-size: 25px;
+    margin-top: 4%;
+}
+
+#fourthSec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: black;
+    padding: 4% 9%;
+}
+
+.fourthSecHeader{
+    width: 100%;
+    height: 10%;
+}
+
+.fourthSecHeader h1{
+    font-size: 50px;
+}
+
+.fourthSecImages{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourthSecImages div{
+    width: 100%;
+    height: 33%;
+}
+
+.fourthSecImages div:nth-child(1) img{
+    width: 518px;
+    height: 100%;
+}
+
+.fourthSecImages div:nth-child(2) img{
+    width: 388px;
+    height: 100%;
+}
+
+.fourthSecImages div:nth-child(3) img{
+    width: 518px;
+    height: 100%;
 }
