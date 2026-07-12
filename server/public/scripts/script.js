@@ -10,7 +10,10 @@ const thirdSec = document.getElementById("thirdSec");
 const fourthSec = document.getElementById("fourthSec");
 const fifthSec = document.getElementById("fifthSec");
 
+const serviceSec = document.getElementById("serviceSec");
+
 const backToTopBtn = document.getElementById("backToTopBtn");
+
 
 window.addEventListener('load', function() {
     const preloader = document.getElementById('preloader');
@@ -29,11 +32,15 @@ abtBtn.addEventListener('click', () => {
     });
 });
 
-servBtn.addEventListener('click', () => {
-    hrsep.scrollIntoView({ 
-      behavior: 'smooth', 
-      block: 'start'
-    });
+// servBtn.addEventListener('click', () => {
+//     hrsep.scrollIntoView({ 
+//       behavior: 'smooth', 
+//       block: 'start'
+//     });
+// });
+
+servBtn.addEventListener("click", () => {
+  window.location.href = "/services";
 });
 
 gallBtn.addEventListener('click', () => {
@@ -60,3 +67,5 @@ contBtn2.addEventListener('click', () => {
 backToTopBtn.addEventListener("click", () => {
   window.scrollTo({top:0, behavior: "smooth"});
 });
+
+
