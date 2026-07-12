@@ -558,4 +558,25 @@ button{
 
 #secondSec, #thirdSec, #fourthSec, #fifthSec{
     height: 87vh;
+    scroll-margin-top: 13vh;
+}
+
+#backToTopBtn{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 106%;
+    bottom: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bc3a1e;
+    border-radius: 50px;
+    border: 2px dashed white;
+    cursor: pointer;
+}
+
+#backToTopBtn img{
+    width: 28px;
+    height: 30px;
 }
