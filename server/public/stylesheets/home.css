@@ -565,12 +565,12 @@ button{
     width: 55px;
     height: 55px;
     position: relative;
-    left: 106%;
-    bottom: 6%;
+    left: 9%;
+    bottom: -45%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #bc3a1e;
+    background: #db4523;
     border-radius: 50px;
     border: 2px dashed white;
     cursor: pointer;
@@ -579,4 +579,99 @@ button{
 #backToTopBtn img{
     width: 28px;
     height: 30px;
+}
+
+#sixthSec{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 9%;
+    border-top: 2px dashed white;
+    background-image: url(/static/images/background/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.sixthSecLogo{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sixthSecLogo img{
+    width: 250px;
+    height: 250px;
+}
+
+.sixthSecLinks, .sixthSecLinks1, .sixthSecLinks2{
+    height: 62%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.sixthSecLinks{
+    width: 20%;
+}
+
+.sixthSecLinks1{
+    width: 25%;
+}
+
+.sixthSecLinks2{
+    width: 35%;
+}
+
+.sixthSecLinks a, .sixthSecLinks1 a, .sixthSecLinks2 a{
+    color: white;
+    transition: 0.2s;
+}
+
+.sixthSecLinks a:hover, .sixthSecLinks1 a:hover, .sixthSecLinks2 a:hover{
+    color: #db4523;
+}
+
+.sixthSecLinks1 span{
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixthSecLinks2 span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sixthSecLinks2 span:nth-child(1){
+    width: 46%;
+}
+
+.sixthSecLinks2 span:nth-child(2){
+    width: 50%;
+}
+
+.sixthSecLinks2 span:nth-child(3){
+    width: 84%;
+}
+
+.sixthSecLinks2 span:nth-child(4){
+    width: 74%;
+}
+
+.sixthSecLinks1 span img{
+    width: 28px;
+    height: 28px;
+}
+
+.sixthSecLinks2 span img{
+    width: 28px;
+    height: 28px;
 }
